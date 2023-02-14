@@ -1,0 +1,12 @@
+.dwt {
+  padding: 20px;
+  color: #9dabbd !important;
+  border-top: 0.0001rem solid rgba(83, 92, 100, 0.5);
+  border-bottom: 0.001rem solid rgba(83, 92, 100, 0.5);
+  overflow: hidden;
+}
+
+.dwtIMGfund {
+  height: 26px !important;
+  width: 62px !important;
+}

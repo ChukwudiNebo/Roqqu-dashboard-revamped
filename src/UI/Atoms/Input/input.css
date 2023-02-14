@@ -1,0 +1,35 @@
+#search  #searchInput {
+  background-color: #20252b;
+  border: none;
+  padding-left: 10px;
+  font-size: 13.5px;
+  color: #9dabbd;
+  outline: none;
+}
+
+#search {
+  background-color: #20252b;
+  height: 35px;
+  color: #9dabbd;
+  border: none;
+  margin-right: 1.9rem;
+  width: 250px;
+  /* padding: 6px; */
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+#search .searchImg {
+  padding-left: 15px;
+  height: 1.9rem;
+  width: 1.9rem;
+}
+
+#search  #searchInput::placeholder {
+  color: #9dabbd !important;
+  font-size: 13px !important;
+  /* color: #9dabbd; */
+}

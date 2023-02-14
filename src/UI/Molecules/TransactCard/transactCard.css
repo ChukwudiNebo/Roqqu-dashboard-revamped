@@ -1,0 +1,26 @@
+.deposite-slide {
+  margin-left: 10px;
+  padding: 15px;
+  padding-left: 2.8rem;
+  padding-right: 2.3rem;
+  background-color: #20252b;
+  border: 0.001rem solid rgb(38, 41, 50);
+  min-width: 212px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.deposite-slide:hover{
+  background-color:#1B1F25;
+  border: 0.001rem solid #1B1F25;
+}
+
+#dwtIMG {
+  height: 30px;
+  width: 30px;
+}
+
+

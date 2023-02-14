@@ -1,0 +1,13 @@
+#sidenavbgcolor{
+    background-color: #24273A;
+    padding: 20px;
+    height: 140vh;
+    border-right: 0.001rem solid rgba(83, 92, 100, 0.5);
+}
+
+#sidenavbgcolor .d-flex .overview{
+    color: #9DABBD;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
