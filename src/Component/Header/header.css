@@ -4,27 +4,23 @@
   /* width: 993px; */
 }
 
-
-
-
-
-
-.wallet-angle-icon {
+.wallet-one__wallet-angle-icon {
   cursor: pointer;
   font-size: 21px;
   padding-left: 35px;
   /* height: 2.6rem; */
   margin-right: 1rem;
+  color: #85D1F0
   /* width: 2.6rem; */
 }
-.wallet {
+.wallet-one__wallet {
   color: white;
   /* height: 35px;
   width: 190px; */
   /* padding: 0 3rem; */
 }
 
-.wallet_001 {
+.wallet-one {
   border-bottom: 0.0001rem solid rgba(83, 92, 100, 0.5);
   height: 3.7rem;
 }

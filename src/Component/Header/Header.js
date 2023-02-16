@@ -12,12 +12,11 @@ const Header = () => {
   return (
     <>
       <div className="">
-        <div className="d-flex align-items-center justify-content-between  wallet_001">
-          <div className="d-flex align-items-center wallet">
+        <div className="d-flex align-items-center justify-content-between  wallet-one">
+          <div className="d-flex align-items-center wallet-one__wallet">
             <span>
               <i
-                className="fa-solid fa-angle-left wallet-angle-icon"
-                style={{ color: "#85D1F0" }}
+                className="fa-solid fa-angle-left wallet-one__wallet-angle-icon"
               ></i>
             </span>
             <Paragraph text="Wallet" />
