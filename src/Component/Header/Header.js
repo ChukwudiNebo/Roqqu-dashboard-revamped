@@ -11,13 +11,11 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-      <div className="">
+      <div>
         <div className="d-flex align-items-center justify-content-between  wallet-one">
           <div className="d-flex align-items-center wallet-one__wallet">
             <span>
-              <i
-                className="fa-solid fa-angle-left wallet-one__wallet-angle-icon"
-              ></i>
+              <i className="fa-solid fa-angle-left wallet-one__wallet-angle-icon"></i>
             </span>
             <Paragraph text="Wallet" />
           </div>
@@ -31,10 +29,10 @@ const Header = () => {
                 text="Chukwudi Nebo"
               />
             </div>
-            <div className="imgico">
+            <div className="wallet-one__img-ico">
               <Imgicon imgico={globe} />
             </div>
-            <div className="imgicon">
+            <div className="wallet-one__img-icon">
               <Imgicon imgico={signout} />
             </div>
           </div>
