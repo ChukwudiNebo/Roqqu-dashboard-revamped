@@ -14,23 +14,23 @@ const PortfolioCard = ({
   DisplayNone,
 }) => {
   return (
-    <div className="d-flex align-items-center cryptBorder">
-      <div className="d-flex align-items-start cryptBorder__cryptoBorder">
+    <div className="d-flex align-items-center">
+      <div className="d-flex align-items-start cryptoBorder">
         <div>
-          <p className="cryptBorder__crypto-portfolio">{Heading}</p>
+          <p className="cryptoBorder__crypto-portfolio">{Heading}</p>
           <div className="cryptBorder__crypto-money">
             <h3
-              className="cryptBorder__header"
+              className="cryptoBorder__header"
               style={{ color: `${color}`}}
             >
               {Amount}
-              <span className="cryptBorder__decimal-amount">
+              <span className="cryptoBorder__decimal-amount">
                 .{DecimalAmount}
               </span>
-              <sub className="cryptBorder__percentage">{Percentage}</sub>
+              <sub className="cryptoBorder__percentage">{Percentage}</sub>
             </h3>
           </div>
-          <p className="cryptBorder__porfolio-paragraph">{porfolioParagraph}</p>
+          <p className="cryptoBorder__porfolio-paragraph">{porfolioParagraph}</p>
         </div>
         <div style={{ display: `${DisplayNone}` }}>
           <CountryDropdown NgnLogo={NgnLogo} currencyText={currencyText} />

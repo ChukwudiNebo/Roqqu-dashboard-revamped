@@ -1,15 +1,11 @@
 import React from 'react'
-
+import './coinbutton.css'
 const CoinButton = ({text}) => {
   return (
     <>
-      <div className="add-coin">
+      <div>
         <p
-          style={{
-            marginBottom: "0px",
-            paddingLeft: "15px",
-            paddingRight: "15px",
-          }}
+          className="add-coin"
         >
           {text}
         </p>

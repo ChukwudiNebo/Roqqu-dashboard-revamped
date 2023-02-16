@@ -1,4 +1,4 @@
-.deposite-slide {
+.transact-slide {
   margin-left: 10px;
   padding: 15px;
   padding-left: 2.8rem;
@@ -13,14 +13,20 @@
   -o-border-radius: 10px;
 }
 
-.deposite-slide:hover{
-  background-color:#1B1F25;
-  border: 0.001rem solid #1B1F25;
+.transact-slide:hover {
+  background-color: #1b1f25;
+  border: 0.001rem solid #1b1f25;
 }
 
-#dwtIMG {
+.transact-slide__dwtIMG {
   height: 30px;
   width: 30px;
 }
 
-
+ .transact-slide__paragraph{
+  color: white;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  width: 100%;
+  white-space: nowrap;
+}

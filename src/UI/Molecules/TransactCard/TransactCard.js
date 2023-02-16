@@ -1,26 +1,20 @@
-import React, { Fragment } from 'react'
-import './transactCard.css'
+import React, { Fragment } from "react";
+import "./transactCard.css";
 const TransactCard = ({ icon, text, dwtIMGfund }) => {
   return (
     <>
       <Fragment>
         <div>
-          <div className="d-flex justify-content-around align-items-center deposite-slide">
+          <div className="d-flex justify-content-around align-items-center transact-slide">
             <div>
-              <img src={icon} alt="" id="dwtIMG" className={`${dwtIMGfund}`} />
+              <img
+                src={icon}
+                alt=""
+                className={`${dwtIMGfund} transact-slide__dwtIMG`}
+              />
             </div>
             <div>
-              <p
-                style={{
-                  color: "white",
-                  marginBottom: "0px",
-                  paddingLeft: "15px",
-                  width:"100%",whiteSpace: "nowrap",
-                  
-                }}
-              >
-                {text}
-              </p>
+              <p className="transact-slide__paragraph">{text}</p>
             </div>
           </div>
         </div>
@@ -29,4 +23,4 @@ const TransactCard = ({ icon, text, dwtIMGfund }) => {
   );
 };
 
-export default TransactCard
+export default TransactCard;

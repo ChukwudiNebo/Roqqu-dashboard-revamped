@@ -1,4 +1,4 @@
-#search  #searchInput {
+.search .search__searchInput {
   background-color: #20252b;
   border: none;
   padding-left: 10px;
@@ -7,7 +7,7 @@
   outline: none;
 }
 
-#search {
+.search {
   background-color: #20252b;
   height: 35px;
   color: #9dabbd;
@@ -22,13 +22,13 @@
   -o-border-radius: 7px;
 }
 
-#search .searchImg {
+.search .search__searchImg {
   padding-left: 15px;
   height: 1.9rem;
   width: 1.9rem;
 }
 
-#search  #searchInput::placeholder {
+.search  .search__searchInput::placeholder {
   color: #9dabbd !important;
   font-size: 13px !important;
   /* color: #9dabbd; */

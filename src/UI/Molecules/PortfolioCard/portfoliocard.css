@@ -13,7 +13,7 @@
   border-bottom: 0.001rem solid rgba(83, 92, 100, 0.5);
 } */
 
-.cryptBorder__cryptoBorder {
+.cryptoBorder {
   /* border-right: 0.001rem solid rgba(83, 92, 100, 0.5); */
   padding-top: 25px;
   padding-bottom: 12px;
@@ -48,7 +48,7 @@
   padding-right: 10px;
   color: white;
 } */
-.cryptBorder__crypto-portfolio {
+.cryptoBorder__crypto-portfolio {
   padding-top: 5px;
   font-size: 18px;
   padding-bottom: 10px;
@@ -56,24 +56,24 @@
   margin-bottom: 0px;
 }
 
-.cryptBorder__header {
+.cryptoBorder__header {
   font-size: 33px;
   padding-bottom: 10px;
   font-weight: bolder;
 }
 
-.cryptBorder__decimal-amount {
+.cryptoBorder__decimal-amount {
   font-size: 17px;
   font-weight: bolder;
 }
 
-.cryptBorder__percentage {
+.cryptoBorder__percentage {
   font-size: 15px;
   font-weight: bolder;
   padding-left: 30px;
 }
 
-.cryptBorder__porfolio-paragraph {
+.cryptoBorder__porfolio-paragraph {
   color: #9dabbd;
   width: 230px;
   font-size: 13px;
