@@ -5,7 +5,7 @@ const Logo = ({ img, height, width }) => {
     <>
       <img
         src={img}
-        alt=""
+        alt="*"
         className="roqqu-logo"
         // style={{ width: `${width}`, height: `${height}` }}
       />

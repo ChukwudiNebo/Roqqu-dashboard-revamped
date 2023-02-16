@@ -5,7 +5,7 @@ const Caretbutton = ({ backgroundcolor,fontAwesome }) => {
   return (
     <Fragment>
       <div
-        className="caretbg"
+        className="caret-bg"
         style={{
           backgroundColor: `${backgroundcolor}`,
         }}

@@ -2,15 +2,16 @@ import React, { Fragment } from "react";
 import Sidebardashboard from "../../Component/Sidebar/Sidebardashboard";
 import WalletAndPortfolioComponent from "../../Component/WalletPortfolio/WalletAndPortfolioComponent";
 
+import './dashboard.css'
 const Dashboard = () => {
   return (
     <>
       <Fragment>
-        <div className="d-flex">
-          <div style={{ width: "250px" }}>
+        <div className="Dashboard">
+          <div className="Dashboard__sidebar">
             <Sidebardashboard />
           </div>
-          <div style={{ width: "100%", height: "120vh" }}>
+          <div className="Dashboard__wallet-portfolio-component">
             <WalletAndPortfolioComponent />
           </div>
         </div>

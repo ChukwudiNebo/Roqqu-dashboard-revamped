@@ -3,7 +3,7 @@ import "./paragraph.css";
 const Paragraph = ({ text }) => {
   return (
     <>
-      <p>{text}</p>
+      <p className="paragraph">{text}</p>
     </>
   );
 };

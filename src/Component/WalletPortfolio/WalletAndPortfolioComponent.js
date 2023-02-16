@@ -6,7 +6,7 @@ import "./WalletAndPortfolioComponent.css";
 
 const WalletAndPortfolioComponent = () => {
   return (
-    <div style={{ backgroundColor: "#1C2127" }}>
+    <div className="wallet-portfolio">
       <Header />
       <Portfolio />
       <Transact />

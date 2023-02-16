@@ -23,7 +23,7 @@ import Button from "../../UI/Atoms/Button/Button";
 const Sidebardashboard = () => {
   return (
     <>
-      <div id="sidenavbgcolor">
+      <div className="side-nav">
         <div className="d-flex flex-column">
           <div>
             <Logo img={roqquLogo} />
@@ -34,7 +34,7 @@ const Sidebardashboard = () => {
               backgroundcolor="#535C64"
             />
           </div>
-          <div className="overview">
+          <div className="side-nav__overview">
             <Paragraph text="Dashboard" />
           </div>
           <div>
@@ -65,7 +65,7 @@ const Sidebardashboard = () => {
           <div>
             <Button img={hubImg} text="Roqqu Hub" color="#9dabbd" />
           </div>
-          <div className="overview">
+          <div className="side-nav__overview">
             <Paragraph text="Account" />
           </div>
           <div>

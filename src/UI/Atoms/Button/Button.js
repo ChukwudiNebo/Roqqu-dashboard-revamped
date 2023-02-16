@@ -9,13 +9,18 @@ const Button = ({ backgroundimage, img, text, fontawesome, color }) => {
         style={{ backgroundImage: `${backgroundimage}`, color: `${color}` }}
         type="button"
       >
-        <span className="img-box">
-          <img src={img} alt="" className="img" style={{ color: `${color}` }} />
+        <span className="dashboard__img-box">
+          <img
+            src={img}
+            alt=""
+            className="dashboard__img-box--img"
+            style={{ color: `${color}` }}
+          />
         </span>
-        <span className="dashboardText">
-          <p>{text}</p>
+        <span className="dashboard__dashboardText">
+          <p className="dashboard__dashboardText--margin">{text}</p>
         </span>
-        <i className={`${fontawesome} dash-icon `}></i>
+        <i className={`${fontawesome} dashboard__icon `}></i>
       </button>
     </>
   );
