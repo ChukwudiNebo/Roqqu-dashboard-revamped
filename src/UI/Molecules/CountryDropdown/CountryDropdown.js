@@ -1,31 +1,21 @@
-import React from 'react'
+import React from "react";
 import "./CountryDropdown.css";
 const CountryDropdown = ({ currencyText, NgnLogo }) => {
   return (
     <>
-      <div className="d-flex align-items-center justify-content-center ngnlogoBorder">
+      <div className="d-flex align-items-center justify-content-center ngn-logo-Border">
         <div>
-          <img src={NgnLogo} alt="" className="ngImg" />
+          <img src={NgnLogo} alt="" className="ngn-logo-Border__ngImg" />
         </div>
         <div>
-          <p
-            style={{
-              color: "white",
-              fontSize: "14px",
-              paddingTop: "2px",
-              marginBottom: "0px",
-              paddingLeft: "10px",
-            }}
-          >
-            {currencyText}
-          </p>
+          <p className="ngn-logo-Border__paragraph">{currencyText}</p>
         </div>
         <div>
-          <i className="fa-solid fa-angle-down portfolio-angle-icon"></i>
+          <i className="fa-solid fa-angle-down ngn-logo-Border__angle-icon"></i>
         </div>
       </div>
     </>
   );
 };
 
-export default CountryDropdown
+export default CountryDropdown;

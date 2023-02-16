@@ -15,41 +15,22 @@ const PortfolioCard = ({
 }) => {
   return (
     <div className="d-flex align-items-center cryptBorder">
-      <div className="d-flex align-items-start cryptoBorder">
+      <div className="d-flex align-items-start cryptBorder__cryptoBorder">
         <div>
-          <p
-            className="crypto-portfolio"
-            style={{ color: "#9DABBD", marginBottom: "0px" }}
-          >
-            {Heading}
-          </p>
-          <div className="crypto-money">
-            <h3 style={{ color: `${color}`, fontWeight: "bolder" }}>
+          <p className="cryptBorder__crypto-portfolio">{Heading}</p>
+          <div className="cryptBorder__crypto-money">
+            <h3
+              className="cryptBorder__header"
+              style={{ color: `${color}`}}
+            >
               {Amount}
-              <span style={{ fontSize: "17px", fontWeight: "bolder" }}>
+              <span className="cryptBorder__decimal-amount">
                 .{DecimalAmount}
               </span>
-              <sub
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "bolder",
-                  paddingLeft: "30px",
-                }}
-              >
-                {Percentage}
-              </sub>
+              <sub className="cryptBorder__percentage">{Percentage}</sub>
             </h3>
           </div>
-          <p
-            style={{
-              color: "#9DABBD",
-              width: "230px",
-              fontSize: "13px",
-              paddingBottom: "20px",
-            }}
-          >
-            {porfolioParagraph}
-          </p>
+          <p className="cryptBorder__porfolio-paragraph">{porfolioParagraph}</p>
         </div>
         <div style={{ display: `${DisplayNone}` }}>
           <CountryDropdown NgnLogo={NgnLogo} currencyText={currencyText} />

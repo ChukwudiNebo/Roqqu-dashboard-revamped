@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="d-flex align-items-center">
-        <div className='portfolioborder'>
+        <div className='portfolio-border'>
           <PortfolioCard
             Heading="Your Crypto Portfolio"
             Amount="₦5,269"
