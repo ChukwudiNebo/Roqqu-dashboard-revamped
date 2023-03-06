@@ -1,0 +1,52 @@
+.asset{
+  color: white !important;
+  border: 0.001rem solid rgba(83, 92, 100, 0.5);
+  margin-left: 30px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.asset__name-list{
+  margin-top: 30px;
+  border-bottom: 0.001rem solid rgba(83, 92, 100, 0.139);
+  padding-bottom: 25px;
+  color: rgba(240, 248, 255, 0.459);
+}
+
+.asset__nameOne{
+  margin-left: 20px;
+}
+
+.asset__nameTwo--one{
+  margin-right: 55px;
+}
+
+.asset__nameTwo--two{
+  margin-right: 55px;
+}
+
+
+.asset__asset-header{
+  font-size: 19px;
+  margin-left: 20px;
+  /* margin-bottom: 0px */
+}
+
+.asset__name-list{
+  padding-right: 10px;
+}
+
+.asset__sort{
+  font-size: 13px;
+  padding-right: 50px;
+}
+
+.asset-coinbalance{
+  margin-left: 20px;
+  margin-top: 20px;
+}

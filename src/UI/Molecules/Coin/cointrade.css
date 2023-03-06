@@ -1,0 +1,24 @@
+.coinTrade{
+    color:white;
+    width:280px;
+    padding-bottom: 25px;
+    border-bottom: 0.001rem solid rgba(83, 92, 100, 0.5);
+}
+
+.cointrade__image-div{
+    padding-right: 10px;
+}
+
+.coinTrade__img{
+    height: 35px;
+}
+
+.coinTrade__paragraph{
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.coinTrade__progress{
+    width:210px;
+    height: 5px !important;
+}

@@ -22,11 +22,11 @@ const Transact = () => {
           <TransactCard text="Transfer" icon={transferWalletIcon} />
         </div>
         <div>
-          <TransactCard
+          {/* <TransactCard
             text="Fund and transact with local currency"
             icon={fundWalletIcon}
             // id={`${dwtIMGfund}`}
-          />
+          /> */}
         </div>
       </div>
     </>

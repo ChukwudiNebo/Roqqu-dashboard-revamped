@@ -19,6 +19,7 @@ import Paragraph from "../../UI/Atoms/Paragraph/Paragraph";
 import Logo from "../../UI/Atoms/Logo/Logo";
 import Caretbutton from "../../UI/Atoms/Caretbutton/Caretbutton";
 import Button from "../../UI/Atoms/Button/Button";
+import ThemeComp from "../../UI/Molecules/ThemeComp/ThemeComp";
 
 const Sidebardashboard = () => {
   return (
@@ -74,6 +75,10 @@ const Sidebardashboard = () => {
 
           <div>
             <Button img={helpIcon} text={`Help & Support`} color="#9dabbd" />
+          </div>
+
+          <div>
+            <ThemeComp firstText={"DARK"} secondText={"LIGHT"}/>
           </div>
         </div>
       </div>

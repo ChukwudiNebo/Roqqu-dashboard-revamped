@@ -1,17 +1,4 @@
-/* .portfolio {
-  border: none;
-  background-color: unset;
-  color: #9dabbd !important;
-  font-weight: bold;
-  width: 220px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 17px;
-} */
 
-/* .cryptBorder {
-  border-bottom: 0.001rem solid rgba(83, 92, 100, 0.5);
-} */
 
 .cryptoBorder {
   /* border-right: 0.001rem solid rgba(83, 92, 100, 0.5); */
@@ -21,33 +8,12 @@
   padding-right: 15px;
 }
 
-/* .ngnlogoBorder {
-  padding-top: 0.2rem;
-  padding-bottom: 0.4rem;
-  margin-top: 45px;
-  border: 0.001rem solid rgba(83, 92, 100, 0.5);
+.cryptoBorder__countryDropdown{
+  margin-top: 45px; 
   margin-left: 30px;
   margin-right: 65px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-} */
+}
 
-/* .ngImg {
-  margin-left: 10px;
-  width: 22px;
-  height: 22px;
-} */
-
-/* .portfolio-angle-icon {
-  font-size: 0.7rem;
-  padding-bottom: 6px !important;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: white;
-} */
 .cryptoBorder__crypto-portfolio {
   padding-top: 5px;
   font-size: 18px;

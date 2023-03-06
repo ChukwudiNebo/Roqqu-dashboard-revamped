@@ -19,10 +19,7 @@ const PortfolioCard = ({
         <div>
           <p className="cryptoBorder__crypto-portfolio">{Heading}</p>
           <div className="cryptBorder__crypto-money">
-            <h3
-              className="cryptoBorder__header"
-              style={{ color: `${color}`}}
-            >
+            <h3 className="cryptoBorder__header" style={{ color: `${color}` }}>
               {Amount}
               <span className="cryptoBorder__decimal-amount">
                 .{DecimalAmount}
@@ -30,9 +27,11 @@ const PortfolioCard = ({
               <sub className="cryptoBorder__percentage">{Percentage}</sub>
             </h3>
           </div>
-          <p className="cryptoBorder__porfolio-paragraph">{porfolioParagraph}</p>
+          <p className="cryptoBorder__porfolio-paragraph">
+            {porfolioParagraph}
+          </p>
         </div>
-        <div style={{ display: `${DisplayNone}` }}>
+        <div className="cryptoBorder__countryDropdown" style={{ display: `${DisplayNone}` }}>
           <CountryDropdown NgnLogo={NgnLogo} currencyText={currencyText} />
         </div>
         {/*  */}

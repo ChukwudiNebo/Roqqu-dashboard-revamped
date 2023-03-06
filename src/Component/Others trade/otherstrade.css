@@ -1,0 +1,38 @@
+.othertrade{
+    width: 320px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    padding-top: 25px;
+    padding-left: 25px;
+    border: 0.001rem solid rgba(83, 92, 100, 0.5);
+    /*text-align: center;
+    */border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+.othertrade__theme{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.otherstrade__paragraph{
+    width: 67%;
+    font-size: 13px;
+    color: white;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* .theme-compo{
+    background-color: #aebdcf
+} */
+
+.othertrade__cointradebar-one{
+    margin-top: 20px;
+}

@@ -1,11 +1,16 @@
 import React from "react";
 import "./CountryDropdown.css";
-const CountryDropdown = ({ currencyText, NgnLogo }) => {
+const CountryDropdown = ({ currencyText, NgnLogo, DisplayNone}) => {
   return (
     <>
       <div className="d-flex align-items-center justify-content-center ngn-logo-Border">
         <div>
-          <img src={NgnLogo} alt="" className="ngn-logo-Border__ngImg" />
+          <img
+            src={NgnLogo}
+            alt=""
+            className="ngn-logo-Border__ngImg"
+            style={{ display: `${DisplayNone}` }}
+          />
         </div>
         <div>
           <p className="ngn-logo-Border__paragraph">{currencyText}</p>
